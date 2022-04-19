@@ -9,33 +9,33 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     </head>
-    <body>
-        <header class="heading">
-            <nav class="heading__topbar">
-                <div class="heading__topbar__title">
+    <body >
+        <header class="heading" id="mob4">
+            <nav class="heading__topbar" id="mob3">
+                <div class="heading__topbar__title" id="mob2">
                     <h3>LOOK</h3>
                 </div>
-                <ul class="heading__topbar__navbar" >
+                <ul class="heading__topbar__navbar" id="mob1" >
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <a class="icon">
-                    <i class="fa fa-bars"></i>
+                <a onclick="mobileNav()" class="icon">
+                    <i class="fa fa-bars" id="triple--dash"></i>
                 </a>
             </nav>
             
             <section class="heading__content">
-                <div class="heading__content__arrow">
+                <div class="heading__content__arrow" onclick="scroller()">
                     <img src="./assets/left_arrow.png" alt="Not Available">
                 </div>
                 <div class="containing">
-                    <div class="heading__content__asset">
+                    <div class="heading__content__asset" id="bar2">
                         <img src="./assets/Spires-About-Mac-transparent_dj2fwc.png" alt="Not Available">
                     </div>
-                    <div class="heading__content__text">
+                    <div class="heading__content__text" id="bar1">
                         <div class="heading__content__text--big">
                             <span>AWESOME</span><br>
                             WESBSITE<br>
@@ -49,11 +49,11 @@
 
                 
                     </div>
-                    <div class="heading__content__placeholder">
+                    <div class="heading__content__placeholder" id="bar3">
                         Responsive Design
                     </div>
                 </div>
-                <div class="heading__content__arrow">
+                <div class="heading__content__arrow" onclick="scroller()">
                     <img src="./assets/right_arrow.png" alt="Not Available">
                 </div>
             </section>
@@ -129,7 +129,6 @@
         <footer class="foot">
             <div class="foot__text">Copyright &copy; 2019 look Pvt.Ltd.All rights reserved.</div>
         </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
         <script src="./script.js"></script>
     </body>
