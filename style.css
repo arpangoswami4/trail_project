@@ -9,7 +9,21 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    max-width: 1440px;
+    
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+p{
+    margin: 0px;
+}
+.container1{
+    background-color: #6A9383;
+}
+.fluid{
+    max-width: 1366px;
     margin: auto;
 
 }
@@ -23,7 +37,6 @@ body{
     justify-content: center;
 }
 .heading{
-    background-color: #6A9383;
     color: white;
     height: 22rem;
 }
@@ -67,8 +80,9 @@ body{
     font-size: 1rem;
     margin: 0px;
     padding: 0px;
-    list-style-type: none;
+    
 }
+
 .heading__topbar__navbar li{
     align-self: stretch;
     display: flex;
@@ -306,7 +320,7 @@ body{
     font-size: 1rem;
 }
 
-.info__placed__left div{
+.info__placed__left a{
     
     cursor: pointer;
 }
